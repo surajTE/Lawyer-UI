@@ -1,0 +1,266 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.main {
+    background-color: #f0ece8;
+}
+
+.nav_items a {
+    margin-right: 2rem;
+    text-decoration: none;
+    color: #000;
+    font-size: 14px;
+}
+
+.nav_items a:hover {
+    color: coral;
+}
+
+.hero_div {
+    height: 90vh;
+    background-image: url(./slider1-01.jpg);
+    background-position: right center;
+    min-height: 90vh;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.hero_div h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 4rem;
+    font-weight: 600;
+    color: #fff;
+    margin-top: 3rem;
+}
+
+.hero_div a {
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid #fff;
+    letter-spacing: 3px;
+}
+
+.div2 {
+    /* height: 20vh; */
+    padding-top: 90px;
+    padding-bottom: 200px;
+    background-color: #42474c;
+    position: relative;
+    color: #fff;
+}
+
+.div2 span {
+    color: #cdba6d;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.div2 h3 {
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    color: #fff;
+    margin-top: 1rem;
+}
+
+/* .stm::first-letter{
+    font-size: 45px;
+    content: "M";
+    margin-bottom: 0;
+    line-height: 26px;
+} */
+
+.inside_div {
+    position: relative;
+    width: 80vw;
+    justify-content: center;
+    background: #fff;
+    color: #000 !important;
+    display: flex;
+    margin-top: -150px;
+    z-index: 999;
+}
+
+.inside_div i {
+    font-size: 4rem;
+    color: #cdba6d;
+}
+
+.inside_div h3 {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 1.9rem;
+    color: #000;
+}
+
+.card_s {
+    width: 23.5rem;
+    padding: 2.3rem;
+}
+
+.active {
+    background: #e9ecef;
+}
+
+.owner {
+    background-color: #f8f8f8;
+}
+
+.owner span {
+    color: #cdba6d;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.owner h3 {
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.owner ul {
+    margin-right: 5rem;
+}
+
+.cases span {
+    color: #cdba6d;
+    font-size: 13px;
+    letter-spacing: 3px;
+    font-weight: 700;
+}
+
+.cases h3 {
+    font-size: 36px;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin-top: 1rem;
+}
+
+.all_case {
+    width: 23rem;
+    margin: 20px;
+    position: relative;
+    /* overflow: hidden; */
+}
+
+.case_info {
+    position: absolute;
+    left: 20px;
+    right: 20px;
+    bottom: -50px;
+    background: #fff;
+    padding: 1rem 1.5rem;
+    transition: all 300ms ease-in-out;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 25px 50px -12px;
+}
+
+.case_info span{
+    color: #cdba6d;
+        font-size: 13px;
+        letter-spacing: 3px;
+        font-weight: 700;
+}
+
+.case_info h3{
+    transition: all 300ms ease-in-out;
+}
+
+.case_info h3:hover{
+    color: #cdba6d;
+}
+
+.all_case:hover .case_info{
+    bottom: -40px;
+}
+
+.colr{
+    background: #f8f8f8;
+}
+
+.details i{
+    font-size: 3rem;
+    margin-bottom: 12px;
+}
+
+.details h3{
+    color: #cdba6d;
+    font-size: 3.5rem;
+    font-family: 'Playfair Display',serif;
+}
+
+.details p{
+    font-weight: 700;
+    letter-spacing: 1px;
+}
+
+.details .b1{
+    border-right: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+}
+
+.div3{
+    background: #313538;
+    color: #fff;
+}
+
+.staff span{
+    color: #cdba6d;
+}
+
+.staff h3{
+    font-size: 2.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.all_staff{
+    display: flex;
+    justify-content: center;
+}
+
+.staff_mem{
+    width: 18rem;
+    margin: 15px;
+}
+
+.mem_info{
+        padding: 1rem 1.5rem;
+        background: #fff;
+        color: #313538;
+}
+
+.mem_info h4{
+    font-size: 1.5rem;
+    font-family: 'Playfair Display', serif;
+}
+
+.mem_info span{
+    color: #cdba6d;
+    font-size: 13px;
+}
+
+.slide_item{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+}
+
+.slide_item p{
+    font-size: 28px;
+}
+
+.slide_item i{
+    color: darkorange;
+}
