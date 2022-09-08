@@ -105,6 +105,17 @@
     padding: 2.3rem;
 }
 
+.card_s h3{
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    margin-top: 15px;
+}
+
+.brd{
+    border-right: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+}
+
 .active {
     background: #e9ecef;
 }
